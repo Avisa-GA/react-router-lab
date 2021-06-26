@@ -1,8 +1,10 @@
+
 import React from "react";
 import { Link } from "react-router-dom";
+import stocks from "../data"
 
 export default function Stocks({stocks}) {
- 
+  
       return (
         <div className="stocks">
           {stocks.map((stock) => {
@@ -10,8 +12,8 @@ export default function Stocks({stocks}) {
     
             return (
               <Link to={`/stocks/${symbol}`}>
-                  <ul style={{marginLeft: "2%"}}>
-                      <li style={{marginRight: "70%", textAlign:"left"}}>
+                  <ul>
+                      <li style={{marginRight: "70%", textAlign:"left", marginLeft: "2%"}}>
                       {name} 
                       </li>
                   </ul>
