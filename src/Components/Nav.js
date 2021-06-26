@@ -10,10 +10,10 @@ const Nav = (props) => {
         <div style={{fontWeight: "bolder"}}>iStocks</div>
       </Link>
       <Link to="/stocks">
-        <div>Stocks</div>
+        <div style={{fontWeight: "normal", color: "lightgray"}}>Stocks</div>
       </Link>
       <Link to="/about">
-        <div style={{fontWeight:"lighter"}}>About</div>
+        <div style={{fontWeight:"normal", color: "lightgray"}}>About</div>
       </Link>
     </div>
   );
