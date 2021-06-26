@@ -1,6 +1,7 @@
-
+import React from "react";
 import { useState, useEffect } from "react";
 import data from "../data";
+
 
 export default function StockDetail(props) {
 
@@ -10,6 +11,7 @@ export default function StockDetail(props) {
  
     return (
         <div>
+      
             <table>
   <thead>
     <tr>
