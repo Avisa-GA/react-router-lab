@@ -10,7 +10,7 @@ export default function Stocks({stocks}) {
     
             return (
               <Link to={`/stocks/${symbol}`}>
-                  <ul>
+                  <ul style={{marginLeft: "2%"}}>
                       <li style={{marginRight: "70%", textAlign:"left"}}>
                       {name} 
                       </li>
